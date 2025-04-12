@@ -26,6 +26,71 @@
     <link rel="stylesheet" href="css/slick.css" />
     <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    
+    <style>
+      .single_special_cource:hover {
+        transform: scale(1.03);
+        transition: transform 0.3s ease-in-out;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+      }
+      
+      /* Consistent card box styling */
+.single_special_cource {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.single_special_cource:hover {
+  transform: scale(1.03);
+}
+
+/* Uniform image styling */
+.special_img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Uniform text and layout inside each card */
+.special_cource_text {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.special_cource_text a.btn_4 {
+  display: inline-block;
+  background-color: #fb6006;
+  color: white;
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.special_cource_text h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.special_cource_text p {
+  flex-grow: 1;
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+    </style>
   </head>
 
   <body>
@@ -92,7 +157,8 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-6 col-lg-4">
+          <!-- Card 1 -->
+          <div class="col-sm-6 col-lg-4 mb-4">
             <div class="single_special_cource">
               <img src="images/co.png" class="special_img" alt="Campus Online" />
               <div class="special_cource_text">
@@ -102,108 +168,119 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4">
+    
+          <!-- Card 2 -->
+          <div class="col-sm-6 col-lg-4 mb-4">
             <div class="single_special_cource">
               <img src="images/bonline.png" class="special_img" alt="Bhimavaram Online" />
               <div class="special_cource_text">
                 <a href="https://bhimavaram.online/" class="btn_4" target="_blank">Bhimavaram Online</a>
                 <h4>Comprehensive Platform</h4>
-                <p>A comprehensive platform for managing local tennis tournaments, player profiles, and event scheduling.</p>
+                <p>A platform for managing local tennis tournaments, player profiles, and event scheduling.</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4">
+    
+          <!-- Card 3 -->
+          <div class="col-sm-6 col-lg-4 mb-4">
             <div class="single_special_cource">
               <img src="images/bd.png" class="special_img" alt="Bhimavaram Digitals" />
               <div class="special_cource_text">
                 <a href="https://www.bhimavaramdigitals.com/" class="btn_4" target="_blank">Bhimavaram Digitals</a>
                 <h4>Digital Solutions</h4>
-                <p>The official website for SRKR Engineering College showcasing academic programs, campus facilities, and student achievements.</p>
+                <p>The official website for SRKR Engineering College showcasing academic programs and student achievements.</p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!--::review_part start::-->
-    <section class="special_cource padding_top">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-5">
-            <div class="section_tittle text-center">
-              <p>Innovative Projects</p>
-              <h2>By Our Students</h2>
+    
+          <!-- Card 4 -->
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="single_special_cource">
+              <img src="images/sw.jpg" class="special_img" alt="BO Smart Wash" />
+              <div class="special_cource_text">
+                <a href="https://www.instagram.com/bo_smartwash?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn_4" target="_blank">BO SMART WASH</a>
+                <h4>Smart Laundry Services</h4>
+                <p>Bo Smart Wash is a student startup from Bhimavaram offering tech-driven laundry solutions.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-lg-4">
+    
+          <!-- Card 5 -->
+          <div class="col-sm-6 col-lg-4 mb-4">
             <div class="single_special_cource">
               <img src="images/srkr.png" class="special_img" alt="SRKR College Website" />
               <div class="special_cource_text">
                 <a href="https://srkrec.edu.in/" class="btn_4" target="_blank">SRKR College Website</a>
                 <h4>Official College Portal</h4>
-                <p>The official website for SRKR Engineering College showcasing academic programs, campus facilities, and student achievements.</p>
+                <p>The official SRKR Engineering College site detailing campus offerings and academics.</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4">
+    
+          <!-- Card 6 -->
+          <div class="col-sm-6 col-lg-4 mb-4">
             <div class="single_special_cource">
               <img src="images/svcet.png" class="special_img" alt="SVCET College Website" />
               <div class="special_cource_text">
                 <a href="http://svcet.net/new/" class="btn_4" target="_blank">SVCET College Website</a>
                 <h4>Modern Web Portal</h4>
-                <p>A modern web portal for SVCET College providing, information about projects, admissions, and campus activities.</p>
+                <p>A modern portal for SVCET showcasing projects, admissions, and events.</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4">
+    
+          <!-- Card 7 -->
+          <div class="col-sm-6 col-lg-4 mb-4">
             <div class="single_special_cource">
               <img src="images/magicaldb.png" class="special_img" alt="MagicalDB" />
               <div class="special_cource_text">
                 <a href="http://www.manjarilab.com/manjari/databases/magicaldb/" class="btn_4" target="_blank">MagicalDB</a>
-                <h4>Specialized Database</h4>
-                <p>A specialized database solution developed for Hyderabad Central University to manage research data efficiently.</p>
+                <h4>Research Database</h4>
+                <p>Custom database designed for research data at Hyderabad Central University.</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4">
+    
+          <!-- Card 8 -->
+          <div class="col-sm-6 col-lg-4 mb-4">
             <div class="single_special_cource">
               <img src="images/bo.png" class="special_img" alt="Bhimavaram Tennis" />
               <div class="special_cource_text">
                 <a href="https://www.bhimavaramtennis.com/" class="btn_4" target="_blank">Bhimavaram Tennis</a>
                 <h4>Event Management</h4>
-                <p>A comprehensive platform for managing local tennis tournaments, player profiles, and event scheduling.</p>
+                <p>A smart system for local tennis tournament handling and player tracking.</p>
               </div>
             </div>
           </div>
-          
-          <div class="col-sm-6 col-lg-4">
+    
+          <!-- Card 9 -->
+          <div class="col-sm-6 col-lg-4 mb-4">
             <div class="single_special_cource">
               <img src="images/csd.png" class="special_img" alt="Courseware" />
               <div class="special_cource_text">
                 <a href="https://csd27.ct.ws/CSD/" class="btn_4" target="_blank">Courseware</a>
                 <h4>Interactive LMS</h4>
-                <p>An interactive learning management system designed to enhance the educational experience for computer science students.</p>
+                <p>An LMS built to enhance CS student learning through interactive resources.</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4">
+    
+          <!-- Card 10 -->
+          <div class="col-sm-6 col-lg-4 mb-4">
             <div class="single_special_cource">
               <img src="images/spell.png" class="special_img" alt="Spellbee" />
               <div class="special_cource_text">
                 <a href="https://srkrec.edu.in/spellbee2k24/" class="btn_4" target="_blank">Spellbee</a>
                 <h4>Gamified Platform</h4>
-                <p>A gamified platform for conducting spell bee competitions, featuring multiple difficulty levels and real-time scoring.</p>
+                <p>A spell bee platform with real-time scoring, difficulty levels, and competition features.</p>
               </div>
             </div>
           </div>
+    
         </div>
       </div>
     </section>
-
-  
+    
 
     <!--::blog_part end::-->
 
@@ -267,7 +344,7 @@
                   <span> Email : </span
                   ><a
                     href="https://preview.colorlib.com/cdn-cgi/l/email-protection"
-                    class="__cf_email__"
+                    class="_cf_email_"
                     data-cfemail="1d74737b725d7e7271726f71747f337e7270"
                     >[email&#160;protected]</a
                   >
